@@ -30,8 +30,8 @@ mod 'ntp',
 
 mod 'role',
   :git => 'https://github.com/mehmetyazicioglu/puppet-profile.git',
-  :ref => 'master'
+  :ref => 'development'
 
 mod 'profile',
    :git => 'git@github.com:mehmetyazicioglu/puppet-role.git',
-   :ref => 'master'
+   :ref => 'development'
