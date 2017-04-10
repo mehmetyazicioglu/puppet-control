@@ -18,17 +18,17 @@ mod "puppetlabs/java", 	      '1.6.0'
 #  :branch => 'docs_experiment'i
 
 mod 'ssh', 
-  :git => 'https://github.com/mehmetyazicioglu/puppet-ssh.git'
+  :git => 'https://github.com/mehmetyazicioglu/puppet-ssh.git',
   :ref => 'master'
 
 mod 'ntp', 
-  :git => 'https://github.com/mehmetyazicioglu/puppet-ntp.git'
+  :git => 'https://github.com/mehmetyazicioglu/puppet-ntp.git',
   :ref => 'master'
 
 mod 'role',
-  :git => 'https://github.com/mehmetyazicioglu/puppet-profile.git'
+  :git => 'https://github.com/mehmetyazicioglu/puppet-profile.git',
   :ref => 'master'
 
 mod 'profile',
-   :git => 'git@github.com:mehmetyazicioglu/puppet-role.git'
+   :git => 'git@github.com:mehmetyazicioglu/puppet-role.git',
    :ref => 'master'
